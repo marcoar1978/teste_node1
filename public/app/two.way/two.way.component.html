@@ -1,0 +1,11 @@
+<h2>Two way data binding</h2>
+
+<p>Nome <input type='text' name='nome' id='nome' [(ngModel)]="nome"> - {{nome}}
+<br><br>
+<button (click)="incluir()">Incluir</button> - <button (click)="reset()">Reset</button>
+<br>
+<br>
+<p><b><font color='blue'>{{numNomes}}</font> nomes Inclusos</b></p>
+<p *ngFor="let nom of nomes">
+    {{nom}}
+</p>    

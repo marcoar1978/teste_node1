@@ -16,6 +16,9 @@ var app_component_1 = require('./app.component');
 var pag1_component_1 = require('./pag1/pag1.component');
 var pag2_component_1 = require('./pag2/pag2.component');
 var pag3_component_1 = require('./pag3/pag3.component');
+var interpolation_component_1 = require('./interpolation/interpolation.component');
+var property_component_1 = require('./property/property.component');
+var two_way_component_1 = require('./two.way/two.way.component');
 var cabecalho_component_1 = require('./cabecalho/cabecalho.component');
 //import { ListagemComponent } from './listagem/listagem.component';
 var app_routes_1 = require('./app.routes');
@@ -26,7 +29,15 @@ var AppModule = (function () {
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, http_1.HttpModule, forms_1.FormsModule, app_routes_1.routing],
-            declarations: [app_component_1.AppComponent, pag1_component_1.Pag1Component, pag2_component_1.Pag2Component, pag3_component_1.Pag3Component, cabecalho_component_1.CabecalhoComponent],
+            declarations: [app_component_1.AppComponent,
+                pag1_component_1.Pag1Component,
+                pag2_component_1.Pag2Component,
+                pag3_component_1.Pag3Component,
+                cabecalho_component_1.CabecalhoComponent,
+                interpolation_component_1.InterpolationComponent,
+                property_component_1.PropertyComponent,
+                two_way_component_1.TwoWayComponent
+            ],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
