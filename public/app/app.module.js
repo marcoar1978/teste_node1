@@ -19,6 +19,7 @@ var pag3_component_1 = require('./pag3/pag3.component');
 var interpolation_component_1 = require('./interpolation/interpolation.component');
 var property_component_1 = require('./property/property.component');
 var two_way_component_1 = require('./two.way/two.way.component');
+var tabuada1_component_1 = require('./tabuada1/tabuada1.component');
 var cabecalho_component_1 = require('./cabecalho/cabecalho.component');
 //import { ListagemComponent } from './listagem/listagem.component';
 var app_routes_1 = require('./app.routes');
@@ -36,7 +37,8 @@ var AppModule = (function () {
                 cabecalho_component_1.CabecalhoComponent,
                 interpolation_component_1.InterpolationComponent,
                 property_component_1.PropertyComponent,
-                two_way_component_1.TwoWayComponent
+                two_way_component_1.TwoWayComponent,
+                tabuada1_component_1.Tabuada1Component
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

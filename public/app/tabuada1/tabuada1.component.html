@@ -1,0 +1,13 @@
+<h3>Tabuada 1</h3>
+
+<br>
+Digite um número para mostrar a tabuada: <input type='text' name='numero' id='numero' size='5' [(ngModel)]='num'> 
+<br>
+<button (click)="mostraTabuada()">Mostra Tabuada</button>
+<div *ngIf="num > 0">
+
+   <div *ngFor='let result of numeros, let i = index'>     
+        {{num2}} x {{i}} = {{result}}
+
+ </div>  
+ </div> 
