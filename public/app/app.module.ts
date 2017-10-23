@@ -11,6 +11,7 @@ import { InterpolationComponent } from './interpolation/interpolation.component'
 import { PropertyComponent } from './property/property.component';
 import { TwoWayComponent } from './two.way/two.way.component';
 import { Tabuada1Component } from './tabuada1/tabuada1.component';
+import { Tabuada2Component } from './tabuada2/tabuada2.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 //import { ListagemComponent } from './listagem/listagem.component';
 import {routing} from './app.routes';
@@ -27,7 +28,8 @@ import 'rxjs/add/operator/map';
                     InterpolationComponent,
                     PropertyComponent,
                     TwoWayComponent,
-                    Tabuada1Component
+                    Tabuada1Component,
+                    Tabuada2Component
                     ],
     bootstrap : [AppComponent]
 })

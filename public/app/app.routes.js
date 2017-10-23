@@ -7,6 +7,7 @@ var interpolation_component_1 = require('./interpolation/interpolation.component
 var property_component_1 = require('./property/property.component');
 var two_way_component_1 = require('./two.way/two.way.component');
 var tabuada1_component_1 = require('./tabuada1/tabuada1.component');
+var tabuada2_component_1 = require('./tabuada2/tabuada2.component');
 var appRoutes = [
     { path: '', component: interpolation_component_1.InterpolationComponent },
     { path: 'pagina1', component: pag1_component_1.Pag1Component },
@@ -15,7 +16,8 @@ var appRoutes = [
     { path: 'interpolation', component: interpolation_component_1.InterpolationComponent },
     { path: 'property', component: property_component_1.PropertyComponent },
     { path: 'two_way', component: two_way_component_1.TwoWayComponent },
-    { path: 'tabuada1', component: tabuada1_component_1.Tabuada1Component }
+    { path: 'tabuada1', component: tabuada1_component_1.Tabuada1Component },
+    { path: 'tabuada2', component: tabuada2_component_1.Tabuada2Component }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
 //# sourceMappingURL=app.routes.js.map

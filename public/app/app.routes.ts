@@ -7,6 +7,7 @@ import { InterpolationComponent } from './interpolation/interpolation.component'
 import { PropertyComponent } from './property/property.component';
 import { TwoWayComponent } from './two.way/two.way.component';
 import { Tabuada1Component } from './tabuada1/tabuada1.component';
+import { Tabuada2Component } from './tabuada2/tabuada2.component';
 
 
 const appRoutes:Routes = [
@@ -18,6 +19,7 @@ const appRoutes:Routes = [
     {path: 'property', component: PropertyComponent}
     {path: 'two_way', component: TwoWayComponent}
     {path: 'tabuada1', component: Tabuada1Component}
+    {path: 'tabuada2', component: Tabuada2Component}
    
  ];
 
